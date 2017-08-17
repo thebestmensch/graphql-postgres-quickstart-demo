@@ -1,0 +1,21 @@
+{
+  "name": "2017-07-09-graphql-and-postgresql-node-quickstart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "James Mensch",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cors": "^2.8.4",
+    "express": "^4.15.3",
+    "graphql": "^0.10.4",
+    "graphql-server-express": "^1.0.0",
+    "graphql-tools": "^1.1.0",
+    "pg-promise": "^6.3.5"
+  }
+}
